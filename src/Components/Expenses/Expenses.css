@@ -1,0 +1,30 @@
+.expenses {
+    width: 100%;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.expenses h1 {
+    margin-top: 3rem;
+}
+
+.card {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    color: blue;
+    background-color: rgb(9, 9, 9);
+    color: white;
+}
+
+.card button {
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+    border-radius: 0.6rem;
+}
